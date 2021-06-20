@@ -30,4 +30,9 @@ public class TestSpring5 {
         user.add();
     }
 
+    @Test
+    public void testBook1() {
+
+    }
+
 }
