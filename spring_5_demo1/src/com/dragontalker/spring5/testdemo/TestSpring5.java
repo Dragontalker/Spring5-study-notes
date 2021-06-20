@@ -1,5 +1,6 @@
 package com.dragontalker.spring5.testdemo;
 
+import com.dragontalker.spring5.Book;
 import com.dragontalker.spring5.User;
 import org.junit.Test;
 import org.springframework.beans.factory.BeanFactory;
@@ -32,7 +33,9 @@ public class TestSpring5 {
 
     @Test
     public void testBook1() {
-
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
+        Book book = context.getBean("book", Book.class);
+        book.testDemo();
     }
 
 }
