@@ -19,7 +19,9 @@
         <property name="bookAuthor" value="达摩老祖"/>
     </bean>
 
+    <!--有参数构造注入属性-->
     <bean id="order" class="com.dragontalker.spring5.Order">
-
+        <constructor-arg name="orderName" value="电脑"/>
+        <constructor-arg name="address" value="China"/>
     </bean>
 </beans>
