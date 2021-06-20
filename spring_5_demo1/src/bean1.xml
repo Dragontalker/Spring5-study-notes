@@ -11,6 +11,10 @@
 
     <!--set方法注入属性-->
     <bean id="book" class="com.dragontalker.spring5.Book">
-
+        <!--使用property完成属性注入
+            name: 类里属性名称
+            value: 向属性注入的值
+        -->
+        <property name="bookName" value="易筋经"/>
     </bean>
 </beans>
