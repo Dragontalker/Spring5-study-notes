@@ -18,4 +18,8 @@
         <property name="bookName" value="易筋经"/>
         <property name="bookAuthor" value="达摩老祖"/>
     </bean>
+
+    <bean id="order" class="com.dragontalker.spring5.Order">
+
+    </bean>
 </beans>
