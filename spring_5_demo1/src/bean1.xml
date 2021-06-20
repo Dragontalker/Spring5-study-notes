@@ -16,5 +16,6 @@
             value: 向属性注入的值
         -->
         <property name="bookName" value="易筋经"/>
+        <property name="bookAuthor" value="达摩老祖"/>
     </bean>
 </beans>
