@@ -32,10 +32,15 @@ public class TestSpring5 {
     }
 
     @Test
-    public void testBook1() {
+    public void testBook() {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
         Book book = context.getBean("book", Book.class);
         book.testDemo();
+    }
+
+    @Test
+    public void testOrder() {
+
     }
 
 }
