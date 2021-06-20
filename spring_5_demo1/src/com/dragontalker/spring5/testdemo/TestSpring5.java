@@ -1,6 +1,7 @@
 package com.dragontalker.spring5.testdemo;
 
 import com.dragontalker.spring5.Book;
+import com.dragontalker.spring5.Order;
 import com.dragontalker.spring5.User;
 import org.junit.Test;
 import org.springframework.beans.factory.BeanFactory;
@@ -40,7 +41,9 @@ public class TestSpring5 {
 
     @Test
     public void testOrder() {
-
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
+        Order order = context.getBean("order", Order.class);
+        order.orderTest();
     }
 
 }
