@@ -12,6 +12,7 @@ public class TestSpring5 {
     public void testAdd() {
         //1. 加载spring配置文件
         //BeanFactory是Spring内部的使用接口, 不提供开发人员使用
+        //加载配置文件的时候不会创建里面的对象, 而是在获取对象或使用的时候再创建对象, 类似于懒汉模式
         //BeanFactory context = new ClassPathXmlApplicationContext("bean1.xml");
 
         //ApplicationContext是BeanFactory的子接口
