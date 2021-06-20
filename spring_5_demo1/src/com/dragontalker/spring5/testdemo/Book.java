@@ -20,5 +20,7 @@ public class Book {
     public static void main(String[] args) {
         Book book = new Book();
         book.setBookName("abc");
+
+        Book book1 = new Book("def");
     }
 }
