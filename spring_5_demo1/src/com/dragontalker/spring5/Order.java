@@ -10,4 +10,8 @@ public class Order {
         this.orderName = orderName;
         this.address = address;
     }
+
+    public void orderTest() {
+        System.out.println(orderName + "::" + address);
+    }
 }
