@@ -1,4 +1,4 @@
-package com.dragontalker;
+package com.dragontalker.spring5;
 
 public class Main {
 
