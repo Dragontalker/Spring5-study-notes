@@ -17,6 +17,7 @@ public class TestSpring5 {
 
         //ApplicationContext是BeanFactory的子接口
         //提供更多更强大的功能, 一般由开发人员进行使用
+        //加载配置文件的时候就把在配置文件中的对象进行创建, 类似于饿汉模式
         ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
 
         //2. 获取配置创建的对象
