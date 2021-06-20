@@ -4,5 +4,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--1 配置User对象创建-->
+    <!--id属性: 唯一标识-->
+    <!--class属性: 类全路径(包类路径)-->
+    <!--name属性: 作用和id类似, 但id中不能加特殊符号, name可以(早期为strut1框架设置)-->
     <bean id="user" class="com.dragontalker.spring5.User"/>
 </beans>
