@@ -8,4 +8,9 @@
     <!--class属性: 类全路径(包类路径)-->
     <!--name属性: 作用和id类似, 但id中不能加特殊符号, name可以(早期为strut1框架设置)-->
     <bean id="user" class="com.dragontalker.spring5.User"/>
+
+    <!--set方法注入属性-->
+    <bean id="book" class="com.dragontalker.spring5.Book">
+
+    </bean>
 </beans>

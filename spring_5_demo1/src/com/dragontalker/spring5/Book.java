@@ -1,4 +1,4 @@
-package com.dragontalker.spring5.testdemo;
+package com.dragontalker.spring5;
 
 /**
  * 演示使用set方法进行注入属性
