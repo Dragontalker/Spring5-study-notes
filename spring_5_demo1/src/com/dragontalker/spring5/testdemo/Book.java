@@ -6,9 +6,14 @@ package com.dragontalker.spring5.testdemo;
 public class Book {
 
     private String bookName;
+    private String bookAuthor;
 
     //set方法注入
     public void setBookName(String bookName) {
         this.bookName = bookName;
+    }
+
+    public void setBookAuthor(String bookAuthor) {
+        this.bookAuthor = bookAuthor;
     }
 }
