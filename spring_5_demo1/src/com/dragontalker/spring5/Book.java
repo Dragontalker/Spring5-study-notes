@@ -16,4 +16,8 @@ public class Book {
     public void setBookAuthor(String bookAuthor) {
         this.bookAuthor = bookAuthor;
     }
+
+    public void testDemo() {
+        System.out.println(bookName + "::" + bookAuthor);
+    }
 }
