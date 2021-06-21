@@ -39,7 +39,18 @@
 
         <!--注入list集合类型, 值是对象-->
         <property name="courseList">
-
+            <list>
+                <ref bean="course1"/>
+                <ref bean="course2"/>
+            </list>
         </property>
+    </bean>
+
+    <bean id="course1" class="com.dragontalker.spring5.collectiontype.Course">
+        <property name="courseName" value="Spring5框架"/>
+    </bean>
+
+    <bean id="course2" class="com.dragontalker.spring5.collectiontype.Course">
+        <property name="courseName" value="MyBatis框架"/>
     </bean>
 </beans>
