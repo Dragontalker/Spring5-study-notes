@@ -6,4 +6,7 @@
     <bean id="order" class="com.dragontalker.spring5.bean.Order" init-method="initMethod" destroy-method="destroyMethod">
         <property name="orderName" value="iPhone"/>
     </bean>
+
+    <!--配置后置处理器-->
+    <bean id="myBeanPost" class="com.dragontalker.spring5.bean.MyBeanPost"/>
 </beans>
