@@ -13,4 +13,8 @@ public class Employee {
                 "department=" + department +
                 '}';
     }
+
+    public void test() {
+        System.out.println(department);
+    }
 }
