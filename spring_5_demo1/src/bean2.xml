@@ -4,4 +4,6 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
+    <!--1. service和dao对象创建-->
+    <bean id="userService" class="com.dragontalker.spring5.service.UserService"/>
 </beans>
