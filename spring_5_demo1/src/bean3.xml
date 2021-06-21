@@ -5,6 +5,9 @@
 
     <!--内部bean-->
     <bean id="employee" class="com.dragontalker.spring5.bean.Employee">
+        <!--设置两个普通的属性-->
+        <property name="employeeName" value="Lucy"/>
+        <property name="gender" value="female"/>
 
     </bean>
 </beans>
