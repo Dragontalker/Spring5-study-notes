@@ -16,8 +16,8 @@ public class UserService {
     //定义dao类型属性
     //不需要添加set方法
     //添加注入属性注解
-    @Autowired
-    @Qualifier(value = "userDaoImpl1")
+    @Autowired //根据类型注入
+    @Qualifier(value = "userDaoImpl1") //根据名称注入
     private UserDao userDao;
 
     public void add() {
