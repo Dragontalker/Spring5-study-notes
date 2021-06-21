@@ -11,5 +11,6 @@ public class Order {
 
     public void setOrderName(String orderName) {
         this.orderName = orderName;
+        System.out.println("Step 2: 调用set方法设置属性的值");
     }
 }
