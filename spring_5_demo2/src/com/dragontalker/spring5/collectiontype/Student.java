@@ -18,6 +18,9 @@ public class Student {
     //4. set集合类型的属性
     private Set<String> set;
 
+    //学生所学的多门课程的集合
+    private List<Course> courseList;
+
     public void setCourses(String[] courses) {
         this.courses = courses;
     }
@@ -32,6 +35,10 @@ public class Student {
 
     public void setSet(Set<String> set) {
         this.set = set;
+    }
+
+    public void setCourseList(List<Course> courseList) {
+        this.courseList = courseList;
     }
 
     public void test(){
