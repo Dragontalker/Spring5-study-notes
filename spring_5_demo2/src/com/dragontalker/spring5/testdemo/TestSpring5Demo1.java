@@ -37,9 +37,13 @@ public class TestSpring5Demo1 {
 
     @Test
     public void testBean() {
-        ApplicationContext context = new ClassPathXmlApplicationContext("bean4.xml");
+        //ApplicationContext context = new ClassPathXmlApplicationContext("bean4.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("bean4.xml");
         Order order = context.getBean("order", Order.class);
         System.out.println("Step 4: 获取创建bean实例对象");
         System.out.println(order);
+
+        //手动让bean实例销毁
+        context.close();
     }
 }
