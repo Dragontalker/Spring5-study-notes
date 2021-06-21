@@ -16,4 +16,12 @@ public class Student {
     public void setCourses(String[] courses) {
         this.courses = courses;
     }
+
+    public void setList(List<String> list) {
+        this.list = list;
+    }
+
+    public void setMap(Map<String, String> map) {
+        this.map = map;
+    }
 }
