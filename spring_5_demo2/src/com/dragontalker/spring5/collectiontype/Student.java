@@ -49,5 +49,7 @@ public class Student {
         System.out.println(map);
         System.out.println("**********");
         System.out.println(set);
+        System.out.println("**********");
+        System.out.println(courseList);
     }
 }
