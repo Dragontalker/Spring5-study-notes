@@ -12,6 +12,8 @@ public class JDKProxy {
         Class[] interfaces = {UserDao.class};
         UserDaoImpl userDao = new UserDaoImpl();
         UserDao dao = (UserDao) Proxy.newProxyInstance(JDKProxy.class.getClassLoader(), interfaces, new UserDaoProxy(userDao));
+        int result = dao.add(1, 2);
+        System.out.println(result);
     }
 }
 
