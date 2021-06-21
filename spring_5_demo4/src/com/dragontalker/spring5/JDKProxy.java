@@ -15,6 +15,13 @@ public class JDKProxy {
 
 //创建代理对象代码
 class UserDaoProxy implements InvocationHandler {
+    //1. 把创建的是谁的代理对象, 把谁传递过来
+    private Object obj;
+
+    //有参数构造进行传递
+    public UserDaoProxy(Object obj) {
+        this.obj = obj;
+    }
 
     //增强的逻辑
     @Override
