@@ -14,5 +14,6 @@ public class UserService {
 
     public void add() {
         System.out.println("service add...");
+        userDao.update();
     }
 }
