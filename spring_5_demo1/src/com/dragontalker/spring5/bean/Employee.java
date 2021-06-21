@@ -18,4 +18,8 @@ public class Employee {
     public void setDepartment(Department department) {
         this.department = department;
     }
+
+    public void add() {
+        System.out.println(employeeName + "::" + gender + "::" + department);
+    }
 }
