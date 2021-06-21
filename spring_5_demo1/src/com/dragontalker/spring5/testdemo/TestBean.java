@@ -23,8 +23,16 @@ public class TestBean {
     }
 
     @Test
-    public void testInfo() {
+    public void testInfo1() {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean3.xml");
+        Employee employee = context.getBean("employee", Employee.class);
+        System.out.println(employee);
+        employee.info();
+    }
+
+    @Test
+    public void testInfo2() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean4.xml");
         Employee employee = context.getBean("employee", Employee.class);
         System.out.println(employee);
         employee.info();
