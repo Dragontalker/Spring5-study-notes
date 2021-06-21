@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--内部bean-->
+    <bean id="employee" class="com.dragontalker.spring5.bean.Employee">
+        <!--设置两个普通的属性-->
+        <property name="employeeName" value="Lucy"/>
+        <property name="gender" value="female"/>
+        <!--级联复制-->
+        <property name="department" ref="department"/>
+    </bean>
+
+    <bean id="department" class="com.dragontalker.spring5.bean.Department">
+        <property name="departmentName" value="Finance"/>
+    </bean>
+</beans>
