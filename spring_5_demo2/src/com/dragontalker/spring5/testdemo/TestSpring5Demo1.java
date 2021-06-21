@@ -1,11 +1,10 @@
 package com.dragontalker.spring5.testdemo;
 
-import com.dragontalker.spring5.autoweb.Employee;
+import com.dragontalker.spring5.autowire.Employee;
 import com.dragontalker.spring5.bean.Order;
 import com.dragontalker.spring5.collectiontype.Book;
 import com.dragontalker.spring5.collectiontype.Course;
 import com.dragontalker.spring5.collectiontype.Student;
-import com.dragontalker.spring5.factorybean.MyBean;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

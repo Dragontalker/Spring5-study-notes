@@ -1,4 +1,4 @@
-package com.dragontalker.spring5.autoweb;
+package com.dragontalker.spring5.autowire;
 
 public class Employee {
     private Department department;
