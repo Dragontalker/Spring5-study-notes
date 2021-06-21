@@ -36,5 +36,10 @@
                 <value>Redis</value>
             </set>
         </property>
+
+        <!--注入list集合类型, 值是对象-->
+        <property name="courseList">
+
+        </property>
     </bean>
 </beans>
