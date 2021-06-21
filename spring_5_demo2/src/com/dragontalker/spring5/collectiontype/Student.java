@@ -1,5 +1,6 @@
 package com.dragontalker.spring5.collectiontype;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -31,5 +32,15 @@ public class Student {
 
     public void setSet(Set<String> set) {
         this.set = set;
+    }
+
+    public void test(){
+        System.out.println(Arrays.toString(courses));
+        System.out.println("**********");
+        System.out.println(list);
+        System.out.println("**********");
+        System.out.println(map);
+        System.out.println("**********");
+        System.out.println(set);
     }
 }
