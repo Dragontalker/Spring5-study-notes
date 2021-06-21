@@ -19,6 +19,6 @@ public class TestSpring5Demo1 {
     public void testBookList() {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean2.xml");
         Book book = context.getBean("book", Book.class);
-
+        book.test();
     }
 }
