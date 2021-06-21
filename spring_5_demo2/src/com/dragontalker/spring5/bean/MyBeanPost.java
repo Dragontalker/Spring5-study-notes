@@ -1,4 +1,6 @@
 package com.dragontalker.spring5.bean;
 
-public class MyBeanPost {
+import org.springframework.beans.factory.config.BeanPostProcessor;
+
+public class MyBeanPost implements BeanPostProcessor {
 }
