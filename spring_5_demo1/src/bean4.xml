@@ -10,6 +10,7 @@
         <property name="gender" value="female"/>
         <!--级联复制-->
         <property name="department" ref="department"/>
+        <property name="department.departmentName" value="IT"/>
     </bean>
 
     <bean id="department" class="com.dragontalker.spring5.bean.Department">

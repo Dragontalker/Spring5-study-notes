@@ -7,6 +7,11 @@ public class Employee {
     //员工属于某一个部门, 使用对象形式标识
     private Department department;
 
+    //生成department的get方法
+    public Department getDepartment() {
+        return department;
+    }
+
     public void setEmployeeName(String employeeName) {
         this.employeeName = employeeName;
     }
