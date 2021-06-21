@@ -3,5 +3,8 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--集合类型属性的注入-->
+    <bean id="student" class="com.dragontalker.spring5.collectiontype.Student">
 
+    </bean>
 </beans>
