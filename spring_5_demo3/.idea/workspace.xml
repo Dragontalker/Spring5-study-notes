@@ -120,6 +120,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSpringDemo3.testAutoWired" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_5_demo3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dragontalker.spring5.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dragontalker.spring5.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.dragontalker.spring5.testdemo.TestSpringDemo3" />
+      <option name="METHOD_NAME" value="testAutoWired" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestSpringDemo3.testComponent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_5_demo3" />
       <extension name="coverage">
@@ -152,10 +168,12 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.TestSpringDemo3.testComponent" />
+      <item itemvalue="JUnit.TestSpringDemo3.testAutoWired" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestSpringDemo3.testComponent" />
+        <item itemvalue="JUnit.TestSpringDemo3.testAutoWired" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
