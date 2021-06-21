@@ -5,6 +5,12 @@
 
     <!--集合类型属性的注入-->
     <bean id="student" class="com.dragontalker.spring5.collectiontype.Student">
-
+        <!--数组类型属性注入-->
+        <property name="courses">
+            <array>
+                <value>Java课程</value>
+                <value>MySQL课程</value>
+            </array>
+        </property>
     </bean>
 </beans>
