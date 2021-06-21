@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4222141d-2359-4b8a-b067-93e46e250241" name="Default Changelist" comment="Added notes.">
       <change afterPath="$PROJECT_DIR$/../spring_5_demo2/src/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean1.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1uGbjSnqr7foDkhRQF9GvgXJPFx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -174,7 +181,35 @@
       <option name="project" value="LOCAL" />
       <updated>1624302262578</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added notes.">
+      <created>1624302357843</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624302357843</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added notes.">
+      <created>1624302416787</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624302416787</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added notes.">
+      <created>1624302464464</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624302464464</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added notes.">
+      <created>1624302503992</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624302503992</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
