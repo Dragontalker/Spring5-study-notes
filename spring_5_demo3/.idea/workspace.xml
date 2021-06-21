@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4222141d-2359-4b8a-b067-93e46e250241" name="Default Changelist" comment="Added notes.">
       <change afterPath="$PROJECT_DIR$/../spring_5_demo2/src/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dragontalker/spring5/testdemo/TestSpringDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dragontalker/spring5/testdemo/TestSpringDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_5_demo4/spring_5_demo3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,13 +96,15 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/spring-expression-5.2.6.RELEASE.jar" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring_5_demo4" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\richa\Desktop\GitHubRepos\Spring5-study-notes" />
       <recent name="C:\Users\richa\Desktop\GitHubRepos\Spring5-study-notes\spring_5_demo3\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -367,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624304569839</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added notes.">
+      <created>1624304696520</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1624304696520</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
