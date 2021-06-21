@@ -5,7 +5,13 @@
 
 
     <!--1. service和dao对象创建-->
-    <bean id="userService" class="com.dragontalker.spring5.service.UserService"/>
+    <bean id="userService" class="com.dragontalker.spring5.service.UserService">
+        <!--注入userDao对象
+            name属性: 类里面属性名称
+            ref属性: 创建userDao对象bean标签的id值
+        -->
+        <property name="userDao" ref="userDaoImpl"/>
+    </bean>
 
-    <bean id="userDao" class="com.dragontalker.spring5.dao.UserDaoImpl"/>
+    <bean id="userDaoImpl" class="com.dragontalker.spring5.dao.UserDaoImpl"/>
 </beans>
