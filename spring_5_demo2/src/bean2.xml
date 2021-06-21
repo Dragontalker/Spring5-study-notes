@@ -5,9 +5,15 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
                            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
+    <!--1. 提取list集合类型属性注入-->
     <util:list id="bookList">
         <value>易筋经</value>
         <value>九阴真经</value>
         <value>九阳神功</value>
     </util:list>
+
+    <!--2. 提取list集合类型属性注入使用-->
+    <bean id="book" class="com.dragontalker.spring5.collectiontype.Book">
+        <property name="list" ref="bookList"/>
+    </bean>
 </beans>
