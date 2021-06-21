@@ -3,6 +3,7 @@ package com.dragontalker.spring5;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import java.util.Arrays;
 
 public class JDKProxy {
 
@@ -26,6 +27,14 @@ class UserDaoProxy implements InvocationHandler {
     //增强的逻辑
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+
+        //方法之前
+        System.out.println("方法之前执行..." + method.getName() + ": 传递的参数..." + Arrays.toString(args));
+
+        //被增强的方法执行
+        method.invoke(obj, args);
+
+        //方法之后
         return null;
     }
 }
