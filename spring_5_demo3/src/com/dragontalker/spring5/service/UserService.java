@@ -1,6 +1,7 @@
 package com.dragontalker.spring5.service;
 
 import com.dragontalker.spring5.dao.UserDao;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
@@ -12,6 +13,9 @@ import org.springframework.stereotype.Service;
 public class UserService {
 
     //定义dao类型属性
+    //不需要添加set方法
+    //添加注入属性注解
+    @Autowired
     private UserDao userDao;
 
     public void add() {
