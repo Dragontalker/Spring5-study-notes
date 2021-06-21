@@ -23,4 +23,11 @@ public class Order {
     public void destroyMethod() {
         System.out.println("Step 5: 执行销毁的方法");
     }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "orderName='" + orderName + '\'' +
+                '}';
+    }
 }
