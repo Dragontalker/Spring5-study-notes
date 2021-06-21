@@ -10,7 +10,7 @@ public class MyBean implements FactoryBean<Course> {
     public Course getObject() throws Exception {
         Course course = new Course();
         course.setCourseName("abc");
-        return null;
+        return course;
     }
 
     @Override

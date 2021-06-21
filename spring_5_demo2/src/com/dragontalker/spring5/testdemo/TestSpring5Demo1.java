@@ -1,6 +1,7 @@
 package com.dragontalker.spring5.testdemo;
 
 import com.dragontalker.spring5.collectiontype.Book;
+import com.dragontalker.spring5.collectiontype.Course;
 import com.dragontalker.spring5.collectiontype.Student;
 import com.dragontalker.spring5.factorybean.MyBean;
 import org.junit.Test;
@@ -26,7 +27,7 @@ public class TestSpring5Demo1 {
     @Test
     public void testFactoryBean() {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean3.xml");
-        MyBean myBean = context.getBean("myBean", MyBean.class);
-        System.out.println(myBean);
+        Course course = context.getBean("myBean", Course.class);
+        System.out.println(course);
     }
 }
