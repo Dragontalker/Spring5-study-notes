@@ -12,5 +12,13 @@
                 <value>MySQL课程</value>
             </array>
         </property>
+
+        <!--list类型属性注入-->
+        <property name="list">
+            <list>
+                <value>张三</value>
+                <value>小三</value>
+            </list>
+        </property>
     </bean>
 </beans>
