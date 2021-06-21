@@ -20,5 +20,13 @@
                 <value>小三</value>
             </list>
         </property>
+
+        <!--map类属性注入-->
+        <property name="map">
+            <map>
+                <entry key="Java" value="8.0"/>
+                <entry key="PHP" value="7.8"/>
+            </map>
+        </property>
     </bean>
 </beans>
