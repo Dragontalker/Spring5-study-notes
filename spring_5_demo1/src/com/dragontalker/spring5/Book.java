@@ -7,6 +7,7 @@ public class Book {
 
     private String bookName;
     private String bookAuthor;
+    private String bookPublisher;
 
     //set方法注入
     public void setBookName(String bookName) {
@@ -17,7 +18,11 @@ public class Book {
         this.bookAuthor = bookAuthor;
     }
 
+    public void setBookPublisher(String bookPublisher) {
+        this.bookPublisher = bookPublisher;
+    }
+
     public void testDemo() {
-        System.out.println(bookName + "::" + bookAuthor);
+        System.out.println(bookName + "::" + bookAuthor + "::" + bookPublisher);
     }
 }

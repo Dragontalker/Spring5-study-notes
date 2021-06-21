@@ -17,6 +17,8 @@
         -->
         <property name="bookName" value="易筋经"/>
         <property name="bookAuthor" value="达摩老祖"/>
+        <!--null值-->
+        <property name="bookPublisher"><null/></property>
     </bean>
 
     <!--有参数构造注入属性-->
