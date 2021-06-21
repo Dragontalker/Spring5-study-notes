@@ -18,4 +18,9 @@ public class Order {
     public void initMethod() {
         System.out.println("Step 3: 执行初始化的方法");
     }
+
+    //创建执行的销毁的方法
+    public void destroyMethod() {
+        System.out.println("Step 5: 执行销毁的方法");
+    }
 }
