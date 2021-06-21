@@ -19,7 +19,7 @@ public class Employee {
         this.department = department;
     }
 
-    public void add() {
+    public void info() {
         System.out.println(employeeName + "::" + gender + "::" + department);
     }
 }

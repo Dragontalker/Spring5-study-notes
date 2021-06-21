@@ -1,6 +1,7 @@
 package com.dragontalker.spring5.testdemo;
 
 import com.dragontalker.spring5.User;
+import com.dragontalker.spring5.bean.Employee;
 import com.dragontalker.spring5.service.UserService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -19,5 +20,13 @@ public class TestBean {
         System.out.println(userService);
 
         userService.add();
+    }
+
+    @Test
+    public void testInfo() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean3.xml");
+        Employee employee = context.getBean("employee", Employee.class);
+        System.out.println(employee);
+        employee.info();
     }
 }
