@@ -1,5 +1,6 @@
 package com.dragontalker.spring5.testdemo;
 
+import com.dragontalker.spring5.bean.Order;
 import com.dragontalker.spring5.collectiontype.Book;
 import com.dragontalker.spring5.collectiontype.Course;
 import com.dragontalker.spring5.collectiontype.Student;
@@ -32,5 +33,13 @@ public class TestSpring5Demo1 {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean3.xml");
         Course course = context.getBean("myBean", Course.class);
         System.out.println(course);
+    }
+
+    @Test
+    public void testBean() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean4.xml");
+        Order order = context.getBean("order", Order.class);
+        System.out.println("Step 4: 获取创建bean实例对象");
+        System.out.println(order);
     }
 }
