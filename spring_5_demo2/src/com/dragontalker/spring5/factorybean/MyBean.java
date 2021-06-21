@@ -7,7 +7,7 @@ public class MyBean implements FactoryBean<Course> {
 
     //定义返回bean
     @Override
-    public Course getObject() throws Exception {
+    public Course getObject() {
         Course course = new Course();
         course.setCourseName("abc");
         return course;
