@@ -19,6 +19,15 @@
         <property name="bookAuthor" value="达摩老祖"/>
         <!--null值-->
         <property name="bookPublisher"><null/></property>
+        <!--属性值包含特殊符号
+            1. 把<>进行转义
+            2. 把带特殊符号内容写道CDATA
+        -->
+        <property name="bookLabel">
+            <value>
+                <![CDATA[<<武功秘籍>>]]>
+            </value>
+        </property>
     </bean>
 
     <!--有参数构造注入属性-->
