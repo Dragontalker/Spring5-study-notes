@@ -9,8 +9,6 @@
             byName根据属性名称注入, 注入值bean的id和类属性名称要一样
             byType根据属性类型注入
     -->
-    <bean id="employee" class="com.dragontalker.spring5.autowire.Employee" autowire="byName">
-        <!--<property name="department" ref="department"/>-->
-    </bean>
+    <bean id="employee" class="com.dragontalker.spring5.autowire.Employee" autowire="byType"/>
     <bean id="department" class="com.dragontalker.spring5.autowire.Department"/>
 </beans>
