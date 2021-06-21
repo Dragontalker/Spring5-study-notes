@@ -6,4 +6,6 @@
 
     <!--1. service和dao对象创建-->
     <bean id="userService" class="com.dragontalker.spring5.service.UserService"/>
+
+    <bean id="userDao" class="com.dragontalker.spring5.dao.UserDaoImpl"/>
 </beans>
