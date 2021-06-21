@@ -6,6 +6,8 @@
                            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
     <util:list id="bookList">
-
+        <value>易筋经</value>
+        <value>九阴真经</value>
+        <value>九阳神功</value>
     </util:list>
 </beans>
