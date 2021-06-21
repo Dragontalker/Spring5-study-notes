@@ -28,5 +28,13 @@
                 <entry key="PHP" value="7.8"/>
             </map>
         </property>
+
+        <!--set类型属性注入-->
+        <property name="set">
+            <set>
+                <value>MongoDB</value>
+                <value>Redis</value>
+            </set>
+        </property>
     </bean>
 </beans>
