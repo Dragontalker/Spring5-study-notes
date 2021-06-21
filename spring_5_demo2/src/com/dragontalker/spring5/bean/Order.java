@@ -13,4 +13,9 @@ public class Order {
         this.orderName = orderName;
         System.out.println("Step 2: 调用set方法设置属性的值");
     }
+
+    //创建执行的初始化的方法
+    public void initMethod() {
+        System.out.println("Step 3: 执行初始化的方法");
+    }
 }
