@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 public class UserDaoImpl implements UserDao{
     @Override
     public void add() {
-        System.out.println("service add...");
+        System.out.println("userDaoImpl add...");
     }
 }

@@ -19,6 +19,7 @@ public class UserService {
     private UserDao userDao;
 
     public void add() {
-        System.out.println("service add...");
+        System.out.println("userService add...");
+        userDao.add();
     }
 }
