@@ -1,5 +1,6 @@
 package com.dragontalker.spring5.testdemo;
 
+import com.dragontalker.spring5.autoweb.Employee;
 import com.dragontalker.spring5.bean.Order;
 import com.dragontalker.spring5.collectiontype.Book;
 import com.dragontalker.spring5.collectiontype.Course;
@@ -45,5 +46,12 @@ public class TestSpring5Demo1 {
 
         //手动让bean实例销毁
         context.close();
+    }
+
+    @Test
+    public void testEmployee() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean5.xml");
+        Employee employee = context.getBean("employee", Employee.class);
+        System.out.println(employee);
     }
 }
