@@ -32,9 +32,11 @@ class UserDaoProxy implements InvocationHandler {
         System.out.println("方法之前执行..." + method.getName() + ": 传递的参数..." + Arrays.toString(args));
 
         //被增强的方法执行
-        method.invoke(obj, args);
+        Object res = method.invoke(obj, args);
 
         //方法之后
-        return null;
+        System.out.println("方法之后执行..." + obj);
+
+        return res;
     }
 }
