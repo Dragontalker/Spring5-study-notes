@@ -13,7 +13,11 @@
     </util:list>
 
     <!--2. 提取list集合类型属性注入使用-->
-    <bean id="book" class="com.dragontalker.spring5.collectiontype.Book">
+    <!--scope值用于设置单实例还是多实例
+        1. 默认值, singleton, 表示是单实例
+        2. prototype, 表示是多实例
+    -->
+    <bean id="book" class="com.dragontalker.spring5.collectiontype.Book" scope="prototype">
         <property name="list" ref="bookList"/>
     </bean>
 </beans>
