@@ -15,7 +15,7 @@ public class BookDaoImpl implements BookDao{
     @Override
     public void add(Book book) {
         //1. 创建sql语句
-        String sql = "insert into `t_book` (bookName, bookStatus) values (?, ?)";
+        String sql = "insert into `t_book` (`bookName`, `bookStatus`) values (?, ?)";
 
         //2. 调用方法实现
         Object[] args = {book.getBookName(), book.getBookStatus()};

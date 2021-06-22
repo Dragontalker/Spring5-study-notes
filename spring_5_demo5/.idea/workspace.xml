@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4222141d-2359-4b8a-b067-93e46e250241" name="Default Changelist" comment="Added notes.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dragontalker/spring5/test/TestBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dragontalker/spring5/test/TestBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dragontalker/spring5/dao/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dragontalker/spring5/dao/BookDaoImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,13 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624295009268</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Added notes.">
-      <created>1624320208503</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1624320208503</updated>
     </task>
     <task id="LOCAL-00047" summary="Added notes.">
       <created>1624320249089</created>
@@ -562,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624373410193</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Added notes.">
+      <created>1624373503295</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1624373503295</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
