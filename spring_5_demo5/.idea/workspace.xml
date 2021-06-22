@@ -112,7 +112,7 @@
       <recent name="C:\Users\richa\Desktop\GitHubRepos\Spring5-study-notes\spring_5_demo3\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestBook.testFindAll">
+  <component name="RunManager" selected="JUnit.TestBook.testBatchUpdate">
     <configuration name="TestBook.testBatchAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_5_demo5" />
       <extension name="coverage">
@@ -129,6 +129,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestBook.testBatchUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_5_demo5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dragontalker.spring5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dragontalker.spring5.test" />
+      <option name="MAIN_CLASS_NAME" value="com.dragontalker.spring5.test.TestBook" />
+      <option name="METHOD_NAME" value="testBatchUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestBook.testBookCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_5_demo5" />
       <extension name="coverage">
@@ -140,22 +156,6 @@
       <option name="PACKAGE_NAME" value="com.dragontalker.spring5.test" />
       <option name="MAIN_CLASS_NAME" value="com.dragontalker.spring5.test.TestBook" />
       <option name="METHOD_NAME" value="testBookCount" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBook.testDeleteBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_5_demo5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dragontalker.spring5.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dragontalker.spring5.test" />
-      <option name="MAIN_CLASS_NAME" value="com.dragontalker.spring5.test.TestBook" />
-      <option name="METHOD_NAME" value="testDeleteBook" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,19 +194,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestBook.testDeleteBook" />
       <item itemvalue="JUnit.TestBook.testBookCount" />
       <item itemvalue="JUnit.TestBook.testFindOne" />
       <item itemvalue="JUnit.TestBook.testFindAll" />
       <item itemvalue="JUnit.TestBook.testBatchAdd" />
+      <item itemvalue="JUnit.TestBook.testBatchUpdate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBook.testBatchUpdate" />
         <item itemvalue="JUnit.TestBook.testFindAll" />
         <item itemvalue="JUnit.TestBook.testBookCount" />
         <item itemvalue="JUnit.TestBook.testBatchAdd" />
         <item itemvalue="JUnit.TestBook.testFindOne" />
-        <item itemvalue="JUnit.TestBook.testDeleteBook" />
       </list>
     </recent_temporary>
   </component>
@@ -218,34 +218,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624295009268</updated>
-    </task>
-    <task id="LOCAL-00072" summary="Added notes.">
-      <created>1624370781559</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1624370781560</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Added notes.">
-      <created>1624371565293</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1624371565293</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Added notes.">
-      <created>1624371660880</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1624371660880</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Added notes.">
-      <created>1624371738118</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1624371738118</updated>
     </task>
     <task id="LOCAL-00076" summary="Added notes.">
       <created>1624371852882</created>
@@ -562,7 +534,35 @@
       <option name="project" value="LOCAL" />
       <updated>1624378286350</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="Added notes.">
+      <created>1624378338401</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1624378338401</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Added notes.">
+      <created>1624378441782</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1624378441782</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Added notes.">
+      <created>1624378462822</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1624378462822</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Added notes.">
+      <created>1624378503892</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1624378503892</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

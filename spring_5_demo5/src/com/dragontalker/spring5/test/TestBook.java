@@ -86,4 +86,19 @@ public class TestBook {
         //调用批量添加
         bookService.batchAdd(batchArgs);
     }
+
+    @Test
+    public void testBatchUpdate() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
+        BookService bookService = context.getBean("bookService", BookService.class);
+
+        List<Object[]> batchArgs = new ArrayList<>();
+        Object[] obj1 = {"Java8", "Out of Stock", "1"};
+        Object[] obj2 = {"JavaScript", "Back Ordered", "6"};
+        batchArgs.add(obj1);
+        batchArgs.add(obj2);
+
+        //调用批量添加
+        bookService.batchUpdate(batchArgs);
+    }
 }
