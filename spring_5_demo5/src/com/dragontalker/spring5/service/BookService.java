@@ -17,5 +17,8 @@ public class BookService {
         bookDao.add(book);
     }
 
-    //
+    //修改的方法
+    public void updateBook(Book book) {
+        bookDao.update(book);
+    }
 }
