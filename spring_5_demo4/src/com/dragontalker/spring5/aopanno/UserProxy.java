@@ -16,16 +16,19 @@ public class UserProxy {
         System.out.println("before...");
     }
 
+    //返回通知, 和AfterThrowing不能同时存在
     @AfterReturning(value = "execution(* com.dragontalker.spring5.aopanno.User.add())")
     public void afterReturning() {
         System.out.println("afterReturning...");
     }
 
+    //异常通知
     @AfterThrowing(value = "execution(* com.dragontalker.spring5.aopanno.User.add())")
     public void afterThrowing() {
         System.out.println("afterThrowing...");
     }
 
+    //最终通知, 类似finally
     @After(value = "execution(* com.dragontalker.spring5.aopanno.User.add())")
     public void after() {
         System.out.println("after...");
