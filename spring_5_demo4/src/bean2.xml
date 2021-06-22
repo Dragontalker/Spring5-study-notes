@@ -15,5 +15,11 @@
     <aop:config>
         <!--切入点-->
         <aop:pointcut id="p" expression="* com.dragontalker.spring5.aopxml.Book.buy(..)"/>
+
+        <!--配置切面-->
+        <aop:aspect ref="bookProxy">
+            <!--增强作用在具体的方法上-->
+            <aop:before method="before" pointcut-ref="p"/>
+        </aop:aspect>
     </aop:config>
 </beans>
