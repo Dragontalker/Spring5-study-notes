@@ -36,5 +36,8 @@ public class TestUser {
     public void testLambda() {
         //1. 创建GenericApplicationContext对象
         GenericApplicationContext context = new GenericApplicationContext();
+        //2. 调用context的方法对象注册
+        context.refresh();
+        context.registerBean(User.class, User::new);
     }
 }
