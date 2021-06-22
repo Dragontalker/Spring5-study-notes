@@ -22,7 +22,7 @@ public class TxConfig {
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/user_db?characterEncoding=latin1");
         dataSource.setUsername("root");
-        dataSource.setPassword("password");
+        dataSource.setPassword("root");
         return dataSource;
     }
 
