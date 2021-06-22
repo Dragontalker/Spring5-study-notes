@@ -6,6 +6,8 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public class BookDaoImpl implements BookDao{
 
@@ -51,5 +53,11 @@ public class BookDaoImpl implements BookDao{
         String sql = "select * from `t_book` where `book_id` = ?";
         //调用方法
         return jdbcTemplate.queryForObject(sql, new BeanPropertyRowMapper<Book>(Book.class), id);
+    }
+
+    @Override
+    public List<Book> findAllBook() {
+        String sql = "select * from `t_book`";
+        return jdbcTemplate.query(sql, new BeanPropertyRowMapper<Book>(Book.class));
     }
 }
