@@ -28,4 +28,13 @@ public class User {
     public void setUserStatus(String userStatus) {
         this.userStatus = userStatus;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userId='" + userId + '\'' +
+                ", userName='" + userName + '\'' +
+                ", userStatus='" + userStatus + '\'' +
+                '}';
+    }
 }
