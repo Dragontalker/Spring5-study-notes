@@ -9,4 +9,16 @@ public class UserDaoImpl implements UserDao{
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
+
+    @Override
+    public void addMoney() {
+
+    }
+
+    @Override
+    public void reduceMoney() {
+        String sql = "update `t_account` set money = money - ? where userName = ?";
+        Object[] args = {100, "lucy"};
+        jdbcTemplate.update(sql, args);
+    }
 }
