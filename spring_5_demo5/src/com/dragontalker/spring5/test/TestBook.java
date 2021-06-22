@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class TestBook {
@@ -73,5 +74,13 @@ public class TestBook {
     public void testBatchAdd() {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
         BookService bookService = context.getBean("bookService", BookService.class);
+
+        List<Object[]> batchArgs = new ArrayList<>();
+        Object[] obj1 = {"MongoDB", "Pre-ordered"};
+        Object[] obj2 = {"PHP", "Out of stock"};
+        Object[] obj3 = {"TypeScript", "In Stock"};
+        batchArgs.add(obj1);
+        batchArgs.add(obj2);
+        batchArgs.add(obj3);
     }
 }
