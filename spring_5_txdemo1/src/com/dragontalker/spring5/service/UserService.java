@@ -15,7 +15,7 @@ public class UserService {
 
     //转账的方法
     public void accountMoney() {
-
-
+        userDao.reduceMoney();
+        userDao.addMoney();
     }
 }
