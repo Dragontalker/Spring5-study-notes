@@ -33,6 +33,9 @@ public class BookDaoImpl implements BookDao{
 
     @Override
     public void delete(Book book) {
-
+        String sql = "delete from `t_book` where book_id = ?";
+        Object[] args = {book.getBookId()};
+        int update = jdbcTemplate.update(sql, args);
+        System.out.println("影响的行数: " + update + "行");
     }
 }
