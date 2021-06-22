@@ -7,9 +7,15 @@
                            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
                            http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <!--1. 开启注解扫描-->
-    <context:component-scan base-package="com.dragontalker.spring5.aopanno"/>
 
-    <!--2. 开启AspectJ生成代理对象-->
-    <aop:aspectj-autoproxy/>
+    <!--引入外部属性文件-->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!-- 数据库连接池 -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">
+        <property name="driverClassName" value="${prop.driverClassName}"/>
+        <property name="url" value="${prop.url}"/>
+        <property name="username" value="${prop.userName}"/>
+        <property name="password" value="${prop.password}"/>
+    </bean>
 </beans>

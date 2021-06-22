@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4222141d-2359-4b8a-b067-93e46e250241" name="Default Changelist" comment="Added notes." />
+    <list default="true" id="4222141d-2359-4b8a-b067-93e46e250241" name="Default Changelist" comment="Added notes.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_5_demo5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_5_demo5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean1.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,13 +96,14 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/spring-tx-5.2.6.RELEASE.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.11013216" />
     <property name="project.structure.side.proportion" value="0.12135923" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\richa\Desktop\GitHubRepos\Spring5-study-notes\spring_5_demo5\lib" />
       <recent name="C:\Users\richa\Desktop\GitHubRepos\Spring5-study-notes\spring_5_demo4\lib" />
       <recent name="C:\Users\richa\Desktop\GitHubRepos\Spring5-study-notes\spring_5_demo3\lib" />
     </key>
@@ -209,13 +214,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624295009268</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Added notes.">
-      <created>1624304569839</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1624304569839</updated>
     </task>
     <task id="LOCAL-00024" summary="Added notes.">
       <created>1624304696520</created>
@@ -553,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624322936379</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Added notes.">
+      <created>1624370781559</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1624370781560</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

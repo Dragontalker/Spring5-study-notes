@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4222141d-2359-4b8a-b067-93e46e250241" name="Default Changelist" comment="Added notes.">
-      <change afterPath="$PROJECT_DIR$/../spring_5_demo2/src/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_5_demo4/spring_5_demo3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_5_demo5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_5_demo5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_5_demo5/spring_5_demo5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_5_demo5/spring_5_demo5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_5_demo5/src/bean1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_5_demo5/src/bean1.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +97,8 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring_5_demo4" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -171,23 +174,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="spring_5_demo3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="spring_5_demo3" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.TestSpringDemo3.testComponent" />
       <item itemvalue="JUnit.TestSpringDemo3.testAutoWired" />
+      <item itemvalue="JUnit.TestSpringDemo3.testComponent" />
       <item itemvalue="JUnit.TestSpringDemo3.testSpringConfig" />
     </list>
     <recent_temporary>
@@ -389,6 +379,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added notes." />
