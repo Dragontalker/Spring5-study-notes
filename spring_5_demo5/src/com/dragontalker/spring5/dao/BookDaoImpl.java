@@ -38,4 +38,9 @@ public class BookDaoImpl implements BookDao{
         int update = jdbcTemplate.update(sql, args);
         System.out.println("影响的行数: " + update + "行");
     }
+
+    @Override
+    public int selectCount() {
+        return 0;
+    }
 }
