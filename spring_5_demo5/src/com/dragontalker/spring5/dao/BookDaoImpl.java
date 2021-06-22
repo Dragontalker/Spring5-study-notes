@@ -2,6 +2,7 @@ package com.dragontalker.spring5.dao;
 
 import com.dragontalker.spring5.entity.Book;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
@@ -49,6 +50,6 @@ public class BookDaoImpl implements BookDao{
     public Book findBookInfo(String id) {
         String sql = "select * from `t_book` where `book_id` = ?";
         //调用方法
-        return jdbcTemplate.queryForObject(sql, Book.class, id);
+        return jdbcTemplate.queryForObject(sql, new BeanPropertyRowMapper<Book>(Book.class), id);
     }
 }
