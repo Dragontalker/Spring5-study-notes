@@ -112,7 +112,7 @@
       <recent name="C:\Users\richa\Desktop\GitHubRepos\Spring5-study-notes\spring_5_demo3\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestBook.testBatchUpdate">
+  <component name="RunManager" selected="JUnit.TestBook.testBatchDelete">
     <configuration name="TestBook.testBatchAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_5_demo5" />
       <extension name="coverage">
@@ -124,6 +124,22 @@
       <option name="PACKAGE_NAME" value="com.dragontalker.spring5.test" />
       <option name="MAIN_CLASS_NAME" value="com.dragontalker.spring5.test.TestBook" />
       <option name="METHOD_NAME" value="testBatchAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBook.testBatchDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_5_demo5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dragontalker.spring5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dragontalker.spring5.test" />
+      <option name="MAIN_CLASS_NAME" value="com.dragontalker.spring5.test.TestBook" />
+      <option name="METHOD_NAME" value="testBatchDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,36 +193,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBook.testFindOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_5_demo5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dragontalker.spring5.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dragontalker.spring5.test" />
-      <option name="MAIN_CLASS_NAME" value="com.dragontalker.spring5.test.TestBook" />
-      <option name="METHOD_NAME" value="testFindOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.TestBook.testBookCount" />
-      <item itemvalue="JUnit.TestBook.testFindOne" />
       <item itemvalue="JUnit.TestBook.testFindAll" />
       <item itemvalue="JUnit.TestBook.testBatchAdd" />
       <item itemvalue="JUnit.TestBook.testBatchUpdate" />
+      <item itemvalue="JUnit.TestBook.testBatchDelete" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBook.testBatchDelete" />
         <item itemvalue="JUnit.TestBook.testBatchUpdate" />
         <item itemvalue="JUnit.TestBook.testFindAll" />
         <item itemvalue="JUnit.TestBook.testBookCount" />
         <item itemvalue="JUnit.TestBook.testBatchAdd" />
-        <item itemvalue="JUnit.TestBook.testFindOne" />
       </list>
     </recent_temporary>
   </component>
