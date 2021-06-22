@@ -32,4 +32,15 @@ public class TestBook {
 
         bookService.updateBook(book);
     }
+
+    @Test
+    public void testDeleteBook() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
+        BookService bookService = context.getBean("bookService", BookService.class);
+
+        Book book = new Book();
+        book.setBookId("1");
+
+        bookService.deleteBook(book);
+    }
 }
