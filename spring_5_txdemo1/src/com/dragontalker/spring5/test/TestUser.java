@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.GenericApplicationContext;
 
 public class TestUser {
 
@@ -30,7 +31,10 @@ public class TestUser {
         userService.accountMoney();
     }
 
-    public static void main(String[] args) {
-
+    //函数式风格创建对象, 交给spring进行管理
+    @Test
+    public void testLambda() {
+        //1. 创建GenericApplicationContext对象
+        GenericApplicationContext context = new GenericApplicationContext();
     }
 }
