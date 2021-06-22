@@ -1,6 +1,7 @@
 package com.dragontalker.spring5.aopanno;
 
 import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.springframework.stereotype.Component;
@@ -15,6 +16,11 @@ public class UserProxy {
     @Before(value = "execution(* com.dragontalker.spring5.aopanno.User.add())")
     public void before() {
         System.out.println("before...");
+    }
+
+    @AfterReturning(value = "execution(* com.dragontalker.spring5.aopanno.User.add())")
+    public void afterReturning() {
+        System.out.println("afterReturning...");
     }
 
     @After(value = "execution(* com.dragontalker.spring5.aopanno.User.add())")
