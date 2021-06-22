@@ -1,6 +1,7 @@
 package com.dragontalker.spring5.service;
 
 import com.dragontalker.spring5.dao.BookDao;
+import com.dragontalker.spring5.entity.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,5 +13,7 @@ public class BookService {
     private BookDao bookDao;
 
     //添加的方法
-    public void add
+    public void addBook(Book book) {
+
+    }
 }
