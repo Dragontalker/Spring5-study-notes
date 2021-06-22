@@ -44,4 +44,11 @@ public class BookDaoImpl implements BookDao{
         String sql = "select count(*) from `t_book`";
         return jdbcTemplate.queryForObject(sql, Integer.class);
     }
+
+    @Override
+    public Book findBookInfo(String id) {
+        String sql = "select * from `t_book` where `book_id` = ?";
+        //调用方法
+        return jdbcTemplate.queryForObject(sql, Book.class, id);
+    }
 }
