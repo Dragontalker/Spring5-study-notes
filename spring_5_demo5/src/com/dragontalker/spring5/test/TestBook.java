@@ -68,4 +68,10 @@ public class TestBook {
         List<Book> bookList = bookService.findAll();
         System.out.println(bookList);
     }
+
+    @Test
+    public void testBatchAdd() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
+        BookService bookService = context.getBean("bookService", BookService.class);
+    }
 }
