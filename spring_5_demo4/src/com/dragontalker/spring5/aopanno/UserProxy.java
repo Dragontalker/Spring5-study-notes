@@ -1,5 +1,6 @@
 package com.dragontalker.spring5.aopanno;
 
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
@@ -28,5 +29,16 @@ public class UserProxy {
     @After(value = "execution(* com.dragontalker.spring5.aopanno.User.add())")
     public void after() {
         System.out.println("after...");
+    }
+
+    //环绕通知
+    @Around(value = "execution(* com.dragontalker.spring5.aopanno.User.add())")
+    public void around(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
+        System.out.println("before around...");
+
+        //被增强的方法执行
+        proceedingJoinPoint.proceed();
+
+        System.out.println("after around...");
     }
 }
