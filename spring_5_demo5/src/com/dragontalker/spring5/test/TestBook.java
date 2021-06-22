@@ -58,4 +58,9 @@ public class TestBook {
         Book book = bookService.findOne("2");
         System.out.println(book);
     }
+
+    @Test
+    public void testFindAll() {
+
+    }
 }
