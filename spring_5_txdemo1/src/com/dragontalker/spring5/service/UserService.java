@@ -10,4 +10,9 @@ public class UserService {
     //注入dao
     @Autowired
     private UserDao userDao;
+
+    //转账的方法
+    public void accountMoney() {
+
+    }
 }
