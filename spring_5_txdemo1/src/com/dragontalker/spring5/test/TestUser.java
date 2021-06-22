@@ -29,4 +29,8 @@ public class TestUser {
         UserService userService = context.getBean("userService", UserService.class);
         userService.accountMoney();
     }
+
+    public static void main(String[] args) {
+
+    }
 }
