@@ -43,4 +43,11 @@ public class TestBook {
 
         bookService.deleteBook(book);
     }
+
+    @Test
+    public void testBookCount() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
+        BookService bookService = context.getBean("bookService", BookService.class);
+        System.out.println("数据库中共有图书: " + bookService.findCount() + "本");
+    }
 }

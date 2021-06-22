@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4222141d-2359-4b8a-b067-93e46e250241" name="Default Changelist" comment="Added notes." />
+    <list default="true" id="4222141d-2359-4b8a-b067-93e46e250241" name="Default Changelist" comment="Added notes.">
+      <change beforePath="$PROJECT_DIR$/src/com/dragontalker/spring5/test/TestBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dragontalker/spring5/test/TestBook.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +111,7 @@
       <recent name="C:\Users\richa\Desktop\GitHubRepos\Spring5-study-notes\spring_5_demo3\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestBook.testDeleteBook">
+  <component name="RunManager" selected="JUnit.TestBook.testBookCount">
     <configuration name="TestAop.testAopConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_5_demo5" />
       <extension name="coverage">
@@ -126,22 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAop.testAopXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_5_demo5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dragontalker.spring5.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dragontalker.spring5.test" />
-      <option name="MAIN_CLASS_NAME" value="com.dragontalker.spring5.test.TestAop" />
-      <option name="METHOD_NAME" value="testAopXml" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestBook.testAddBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_5_demo5" />
       <extension name="coverage">
@@ -153,6 +139,22 @@
       <option name="PACKAGE_NAME" value="com.dragontalker.spring5.test" />
       <option name="MAIN_CLASS_NAME" value="com.dragontalker.spring5.test.TestBook" />
       <option name="METHOD_NAME" value="testAddBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBook.testBookCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_5_demo5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dragontalker.spring5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dragontalker.spring5.test" />
+      <option name="MAIN_CLASS_NAME" value="com.dragontalker.spring5.test.TestBook" />
+      <option name="METHOD_NAME" value="testBookCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,19 +193,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestAop.testAopXml" />
       <item itemvalue="JUnit.TestAop.testAopConfig" />
       <item itemvalue="JUnit.TestBook.testAddBook" />
       <item itemvalue="JUnit.TestBook.testUpdateBook" />
       <item itemvalue="JUnit.TestBook.testDeleteBook" />
+      <item itemvalue="JUnit.TestBook.testBookCount" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBook.testBookCount" />
         <item itemvalue="JUnit.TestBook.testDeleteBook" />
         <item itemvalue="JUnit.TestBook.testUpdateBook" />
         <item itemvalue="JUnit.TestBook.testAddBook" />
         <item itemvalue="JUnit.TestAop.testAopConfig" />
-        <item itemvalue="JUnit.TestAop.testAopXml" />
       </list>
     </recent_temporary>
   </component>
@@ -215,27 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624295009268</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Added notes.">
-      <created>1624321053915</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1624321053915</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Added notes.">
-      <created>1624321144935</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1624321144935</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Added notes.">
-      <created>1624321369932</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1624321369932</updated>
     </task>
     <task id="LOCAL-00058" summary="Added notes.">
       <created>1624321664292</created>
@@ -559,7 +540,28 @@
       <option name="project" value="LOCAL" />
       <updated>1624376003241</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Added notes.">
+      <created>1624376242156</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1624376242156</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Added notes.">
+      <created>1624376280285</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1624376280285</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Added notes.">
+      <created>1624376344822</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1624376344822</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
