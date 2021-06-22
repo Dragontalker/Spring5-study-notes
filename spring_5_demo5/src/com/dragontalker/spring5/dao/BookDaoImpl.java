@@ -25,7 +25,10 @@ public class BookDaoImpl implements BookDao{
 
     @Override
     public void update(Book book) {
-
+        String sql = "update `t_book` set `bookName` = ?, `bookStatus` = ? where book_id = ?";
+        Object[] args = {book.getBookName(), book.getBookStatus(), book.getBookId()};
+        int update = jdbcTemplate.update(sql, args);
+        System.out.println("影响的行数: " + update + "行");
     }
 
     @Override
