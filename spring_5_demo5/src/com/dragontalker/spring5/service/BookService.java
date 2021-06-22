@@ -31,4 +31,9 @@ public class BookService {
     public int findCount() {
         return bookDao.selectCount();
     }
+
+    //查询返回对象
+    public Book findOne(String id) {
+        return bookDao.findBookInfo(id);
+    }
 }

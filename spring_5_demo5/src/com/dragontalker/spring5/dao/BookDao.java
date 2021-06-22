@@ -7,4 +7,6 @@ public interface BookDao {
     void update(Book book);
     void delete(Book book);
     int selectCount();
+
+    Book findBookInfo(String id);
 }
