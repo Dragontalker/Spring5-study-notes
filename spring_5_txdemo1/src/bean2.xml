@@ -49,5 +49,7 @@
     <aop:config>
         <!--配置切入点-->
         <aop:pointcut id="pt" expression="execution(* com.dragontalker.spring5.service.UserService.*(..)"/>
+        <!--切面-->
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="pt"/>
     </aop:config>
 </beans>
