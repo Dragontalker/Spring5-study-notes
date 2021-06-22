@@ -2,11 +2,13 @@ package com.dragontalker.spring5.aopanno;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 //增强的类
 @Component
 @Aspect //生成代理对象
+@Order(3)
 public class UserProxy {
 
     //相同切入点抽取
@@ -17,7 +19,7 @@ public class UserProxy {
     //@Before注解表示作为前置通知
     @Before(value = "pointDemo()")
     public void before() {
-        System.out.println("before...");
+        System.out.println("user before...");
     }
 
     //返回通知, 和AfterThrowing不能同时存在
