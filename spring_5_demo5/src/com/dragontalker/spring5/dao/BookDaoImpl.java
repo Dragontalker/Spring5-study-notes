@@ -41,6 +41,7 @@ public class BookDaoImpl implements BookDao{
 
     @Override
     public int selectCount() {
-        return 0;
+        String sql = "select count(*) from `t_book`";
+        return jdbcTemplate.update(sql);
     }
 }
