@@ -10,4 +10,7 @@ public class BookService {
     //注入dao
     @Autowired
     private BookDao bookDao;
+
+    //添加的方法
+    public void add
 }
