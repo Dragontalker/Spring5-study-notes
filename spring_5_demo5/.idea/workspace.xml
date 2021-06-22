@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4222141d-2359-4b8a-b067-93e46e250241" name="Default Changelist" comment="Added notes.">
-      <change beforePath="$PROJECT_DIR$/src/com/dragontalker/spring5/dao/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dragontalker/spring5/dao/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dragontalker/spring5/test/TestBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dragontalker/spring5/test/TestBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,20 +112,7 @@
       <recent name="C:\Users\richa\Desktop\GitHubRepos\Spring5-study-notes\spring_5_demo3\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAop.testAopConfig">
-    <configuration name="JDKProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dragontalker.spring5.JDKProxy" />
-      <module name="spring_5_demo5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dragontalker.spring5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestBook.testAddBook">
     <configuration name="TestAop.testAopAnno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_5_demo5" />
       <extension name="coverage">
@@ -189,20 +177,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestBook.testAddBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_5_demo5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dragontalker.spring5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dragontalker.spring5.test" />
+      <option name="MAIN_CLASS_NAME" value="com.dragontalker.spring5.test.TestBook" />
+      <option name="METHOD_NAME" value="testAddBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.JDKProxy" />
       <item itemvalue="JUnit.TestAop.testAopAnno" />
       <item itemvalue="JUnit.TestAop.testAopAnnotation" />
       <item itemvalue="JUnit.TestAop.testAopXml" />
       <item itemvalue="JUnit.TestAop.testAopConfig" />
+      <item itemvalue="JUnit.TestBook.testAddBook" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBook.testAddBook" />
         <item itemvalue="JUnit.TestAop.testAopConfig" />
         <item itemvalue="JUnit.TestAop.testAopXml" />
         <item itemvalue="JUnit.TestAop.testAopAnnotation" />
         <item itemvalue="JUnit.TestAop.testAopAnno" />
-        <item itemvalue="Application.JDKProxy" />
       </list>
     </recent_temporary>
   </component>
@@ -214,27 +218,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624295009268</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Added notes.">
-      <created>1624320020316</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1624320020316</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Added notes.">
-      <created>1624320124136</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1624320124136</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Added notes.">
-      <created>1624320170003</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1624320170003</updated>
     </task>
     <task id="LOCAL-00046" summary="Added notes.">
       <created>1624320208503</created>
@@ -558,7 +541,28 @@
       <option name="project" value="LOCAL" />
       <updated>1624373114702</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Added notes.">
+      <created>1624373202852</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1624373202852</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Added notes.">
+      <created>1624373295265</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1624373295266</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Added notes.">
+      <created>1624373410193</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1624373410193</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
