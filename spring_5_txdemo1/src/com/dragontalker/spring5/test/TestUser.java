@@ -38,9 +38,9 @@ public class TestUser {
         GenericApplicationContext context = new GenericApplicationContext();
         //2. 调用context的方法对象注册
         context.refresh();
-        context.registerBean(User.class, User::new);
+        context.registerBean("user1", User.class, User::new);
         //3. 获取在spring注册的对象
-        User user = (User) context.getBean("com.dragontalker.spring5.test.User");
+        User user = (User) context.getBean("user1");
         System.out.println(user);
     }
 }
