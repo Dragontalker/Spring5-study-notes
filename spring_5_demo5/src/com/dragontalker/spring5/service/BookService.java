@@ -14,6 +14,6 @@ public class BookService {
 
     //添加的方法
     public void addBook(Book book) {
-
+        bookDao.add(book);
     }
 }
