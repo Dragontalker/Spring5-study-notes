@@ -2,6 +2,8 @@ package com.dragontalker.spring5.dao;
 
 import com.dragontalker.spring5.entity.Book;
 
+import java.util.List;
+
 public interface BookDao {
     void add(Book book);
     void update(Book book);
@@ -9,4 +11,6 @@ public interface BookDao {
     int selectCount();
 
     Book findBookInfo(String id);
+
+    List<Book> findAllBook();
 }
