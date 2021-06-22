@@ -82,5 +82,8 @@ public class TestBook {
         batchArgs.add(obj1);
         batchArgs.add(obj2);
         batchArgs.add(obj3);
+
+        //调用批量添加
+        bookService.batchAdd(batchArgs);
     }
 }
