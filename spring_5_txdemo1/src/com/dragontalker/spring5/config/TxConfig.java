@@ -9,9 +9,6 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.util.Properties;
 
 @Configuration
 @ComponentScan(basePackages = "com.dragontalker")
