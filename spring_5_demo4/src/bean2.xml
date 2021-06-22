@@ -10,4 +10,10 @@
     <!--创建对象-->
     <bean id="book" class="com.dragontalker.spring5.aopxml.Book"/>
     <bean id="bookProxy" class="com.dragontalker.spring5.aopxml.BookProxy"/>
+
+    <!--配置aop增强-->
+    <aop:config>
+        <!--切入点-->
+        <aop:pointcut id="p" expression="* com.dragontalker.spring5.aopxml.Book.buy(..)"/>
+    </aop:config>
 </beans>
