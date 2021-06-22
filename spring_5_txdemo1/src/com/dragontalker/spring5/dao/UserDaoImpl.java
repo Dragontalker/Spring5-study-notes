@@ -12,7 +12,9 @@ public class UserDaoImpl implements UserDao{
 
     @Override
     public void addMoney() {
-
+        String sql = "update `t_account` set money = money + ? where userName = ?";
+        Object[] args = {100, "mary"};
+        jdbcTemplate.update(sql, args);
     }
 
     @Override
