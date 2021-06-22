@@ -6,6 +6,8 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.List;
+
 public class TestBook {
 
     @Test
@@ -61,6 +63,9 @@ public class TestBook {
 
     @Test
     public void testFindAll() {
-
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
+        BookService bookService = context.getBean("bookService", BookService.class);
+        List<Book> bookList = bookService.findAll();
+        System.out.println(bookList);
     }
 }
