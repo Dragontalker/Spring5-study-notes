@@ -111,23 +111,7 @@
       <recent name="C:\Users\richa\Desktop\GitHubRepos\Spring5-study-notes\spring_5_demo3\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestBook.testAddBook">
-    <configuration name="TestAop.testAopAnno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_5_demo5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dragontalker.spring5.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dragontalker.spring5.test" />
-      <option name="MAIN_CLASS_NAME" value="com.dragontalker.spring5.test.TestAop" />
-      <option name="METHOD_NAME" value="testAopAnno" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestBook.testUpdateBook">
     <configuration name="TestAop.testAopAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_5_demo5" />
       <extension name="coverage">
@@ -192,20 +176,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestBook.testUpdateBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_5_demo5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dragontalker.spring5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dragontalker.spring5.test" />
+      <option name="MAIN_CLASS_NAME" value="com.dragontalker.spring5.test.TestBook" />
+      <option name="METHOD_NAME" value="testUpdateBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.TestAop.testAopAnno" />
       <item itemvalue="JUnit.TestAop.testAopAnnotation" />
       <item itemvalue="JUnit.TestAop.testAopXml" />
       <item itemvalue="JUnit.TestAop.testAopConfig" />
       <item itemvalue="JUnit.TestBook.testAddBook" />
+      <item itemvalue="JUnit.TestBook.testUpdateBook" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBook.testUpdateBook" />
         <item itemvalue="JUnit.TestBook.testAddBook" />
         <item itemvalue="JUnit.TestAop.testAopConfig" />
         <item itemvalue="JUnit.TestAop.testAopXml" />
         <item itemvalue="JUnit.TestAop.testAopAnnotation" />
-        <item itemvalue="JUnit.TestAop.testAopAnno" />
       </list>
     </recent_temporary>
   </component>

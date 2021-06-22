@@ -19,4 +19,17 @@ public class TestBook {
 
         bookService.addBook(book);
     }
+
+    @Test
+    public void testUpdateBook() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
+        BookService bookService = context.getBean("bookService", BookService.class);
+
+        Book book = new Book();
+        book.setBookId("1");
+        book.setBookName("Spring 5");
+        book.setBookStatus("Not Available");
+
+        bookService.updateBook(book);
+    }
 }
