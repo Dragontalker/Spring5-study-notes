@@ -8,8 +8,15 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class TestUser {
 
     @Test
-    public void testTx() {
+    public void testTxAnnotation() {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
+        UserService userService = context.getBean("userService", UserService.class);
+        userService.accountMoney();
+    }
+
+    @Test
+    public void testTxXML() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean2.xml");
         UserService userService = context.getBean("userService", UserService.class);
         userService.accountMoney();
     }
