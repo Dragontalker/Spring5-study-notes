@@ -29,7 +29,8 @@
     </bean>
 
     <!--创建事务管理器-->
-    <bean id="" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!--注入数据源-->
+        <property name="dataSource" ref="dataSource"/>
     </bean>
 </beans>
