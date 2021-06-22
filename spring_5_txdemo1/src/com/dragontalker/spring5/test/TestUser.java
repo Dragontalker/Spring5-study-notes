@@ -39,5 +39,8 @@ public class TestUser {
         //2. 调用context的方法对象注册
         context.refresh();
         context.registerBean(User.class, User::new);
+        //3. 获取在spring注册的对象
+        User user = (User) context.getBean("com.dragontalker.spring5.test.User");
+        System.out.println(user);
     }
 }
