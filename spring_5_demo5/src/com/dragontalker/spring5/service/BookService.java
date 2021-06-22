@@ -21,4 +21,9 @@ public class BookService {
     public void updateBook(Book book) {
         bookDao.update(book);
     }
+
+    //删除的方法
+    public void deleteBook(Book book) {
+        bookDao.delete(book);
+    }
 }
