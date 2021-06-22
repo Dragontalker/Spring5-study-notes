@@ -50,4 +50,12 @@ public class TestBook {
         BookService bookService = context.getBean("bookService", BookService.class);
         System.out.println("数据库中共有图书: " + bookService.findCount() + "本");
     }
+
+    @Test
+    public void testFindOne() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
+        BookService bookService = context.getBean("bookService", BookService.class);
+        Book book = bookService.findOne("2");
+        System.out.println(book);
+    }
 }
