@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4222141d-2359-4b8a-b067-93e46e250241" name="Default Changelist" comment="Added notes.">
-      <change beforePath="$PROJECT_DIR$/src/com/dragontalker/spring5/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dragontalker/spring5/dao/BookDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dragontalker/spring5/dao/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dragontalker/spring5/dao/BookDaoImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,20 +214,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624295009268</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Added notes.">
-      <created>1624319764040</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1624319764040</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Added notes.">
-      <created>1624319804901</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1624319804901</updated>
     </task>
     <task id="LOCAL-00043" summary="Added notes.">
       <created>1624320020316</created>
@@ -559,7 +544,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624372823689</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Added notes.">
+      <created>1624372900433</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1624372900433</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Added notes.">
+      <created>1624373114702</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1624373114702</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

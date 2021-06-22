@@ -18,6 +18,8 @@ public class BookDaoImpl implements BookDao{
         String sql = "insert into `t_book` (bookName, bookStatus) values (?, ?)";
 
         //2. 调用方法实现
-        int update = jdbcTemplate.update(sql, book.getBookName(), book.getBookStatus());
+        Object[] args = {book.getBookName(), book.getBookStatus()};
+        int update = jdbcTemplate.update(sql, args);
+        System.out.println("影响的行数: " + update + "行");
     }
 }
