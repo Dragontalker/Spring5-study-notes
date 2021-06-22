@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class TestAop {
 
     @Test
-    public void testAopAnno() {
+    public void testAopAnnotation() {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
         User user = context.getBean("user", User.class);
         user.add();
