@@ -68,4 +68,11 @@ public class BookDaoImpl implements BookDao{
         int[] batchUpdate = jdbcTemplate.batchUpdate(sql, batchArgs);
         System.out.println(Arrays.toString(batchUpdate));
     }
+
+    @Override
+    public void batchUpdateBook(List<Object[]> batchArgs) {
+        String sql = "update `t_book` set `bookName` = ?, `bookStatus` = ? where book_id = ?";
+        int[] batchUpdate = jdbcTemplate.batchUpdate(sql, batchArgs);
+        System.out.println(Arrays.toString(batchUpdate));
+    }
 }
