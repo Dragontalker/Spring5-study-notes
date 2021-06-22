@@ -36,5 +36,12 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
-
+    <!--2. 配置通知-->
+    <tx:advice id="txAdvice">
+        <!--配置事务相关参数-->
+        <tx:attributes>
+            <!--指定哪种规则的方法上面添加事务-->
+            <tx:method name="accountMoney" propagation="REQUIRES_NEW"/>
+        </tx:attributes>
+    </tx:advice>
 </beans>
