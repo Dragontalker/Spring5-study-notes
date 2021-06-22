@@ -10,4 +10,9 @@ public class BookDaoImpl implements BookDao{
     //注入JdbcTemplate
     @Autowired
     private JdbcTemplate jdbcTemplate;
+
+    @Override
+    public void addBook() {
+
+    }
 }
