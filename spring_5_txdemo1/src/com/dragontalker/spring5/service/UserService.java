@@ -13,6 +13,10 @@ public class UserService {
 
     //转账的方法
     public void accountMoney() {
+        //lucy少100
+        userDao.reduceMoney();
 
+        //mary多100
+        userDao.addMoney();
     }
 }
