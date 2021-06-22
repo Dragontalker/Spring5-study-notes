@@ -48,4 +48,9 @@ public class BookService {
     public void batchAdd(List<Object[]> batchArgs) {
         bookDao.batchAddBook(batchArgs);
     }
+
+    //批量修改
+    public void batchUpdate() {
+
+    }
 }
