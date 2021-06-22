@@ -23,7 +23,7 @@ public class TxConfig {
     public DruidDataSource getDruidDataSource() {
         DruidDataSource dataSource = new DruidDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql:///user_db");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/user_db?characterEncoding=latin1");
         dataSource.setUsername("root");
         dataSource.setPassword("password");
         return dataSource;
