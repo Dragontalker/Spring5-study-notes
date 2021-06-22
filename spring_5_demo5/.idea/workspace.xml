@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4222141d-2359-4b8a-b067-93e46e250241" name="Default Changelist" comment="Added notes.">
+      <change afterPath="$PROJECT_DIR$/../spring_5_txdemo1/spring_5_demo5.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dragontalker/spring5/test/TestBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dragontalker/spring5/test/TestBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,13 +97,15 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/spring-tx-5.2.6.RELEASE.jar" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring_5_txdemo1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.11013216" />
     <property name="project.structure.side.proportion" value="0.12135923" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\richa\Desktop\GitHubRepos\Spring5-study-notes" />
       <recent name="C:\Users\richa\Desktop\GitHubRepos\Spring5-study-notes\spring_5_demo5\lib" />
       <recent name="C:\Users\richa\Desktop\GitHubRepos\Spring5-study-notes\spring_5_demo4\lib" />
       <recent name="C:\Users\richa\Desktop\GitHubRepos\Spring5-study-notes\spring_5_demo3\lib" />
@@ -218,34 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624295009268</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Added notes.">
-      <created>1624371852882</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1624371852882</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Added notes.">
-      <created>1624371875561</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1624371875561</updated>
-    </task>
-    <task id="LOCAL-00078" summary="Added notes.">
-      <created>1624371933600</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1624371933600</updated>
-    </task>
-    <task id="LOCAL-00079" summary="Added notes.">
-      <created>1624371951437</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1624371951437</updated>
     </task>
     <task id="LOCAL-00080" summary="Added notes.">
       <created>1624371989013</created>
@@ -562,7 +536,35 @@
       <option name="project" value="LOCAL" />
       <updated>1624378503892</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Added notes.">
+      <created>1624378646988</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1624378646988</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Added notes.">
+      <created>1624378738457</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1624378738457</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Added notes.">
+      <created>1624378774859</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1624378774859</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Added notes.">
+      <created>1624378812043</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1624378812043</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
